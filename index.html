@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	
+	 <!-- Responsive metatag -->    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<!-- Boostrap Icon -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	
+        <title> Voyager </title>
+		<meta charset="utf-8">
+		<meta name="description" content="Voyager 1 and 2 are space probes"/>
+    </head>
+	
+    <body>
+	
+	<!-- Bootstrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+		<header>	
+			<div class="container-lg">
+		
+		<!-- introductory content -->			
+			<img src="images/voyager_resize_header.jpg" class="img-fluid" alt="voyager in space" title="Voyager">	
+			
+			<!-- Paragraph describing Voyager's start -->
+			<h1 class="display-2 text-center">The Voyager Probes</1>
+			<h2 class="display-5 text-center">The Beginning</h2>
+			<p class="lead">
+				<strong class="text-decoration-underline fw-normal">The Voyager Probes were launched on Aug. 20, 1977 and Sept. 5th 1977.</strong> Voyager 1 traveled quicker than it's sister Voyager 2. They both reached Jupiter and Saturn, allowing us to view the outer planets for the first time in greater detail than we have before. Each probe also carries a <a href="https://voyager.jpl.nasa.gov/golden-record/">golden record</a> containing images of life on earth, diagrams of scientific principles, and audio that includes sounds of nature, languages, and music. These are carried in case anyone that might come across the probes can see that there is intelligent life on earth.
+				<br><br>
+				<img src="images/golden record_resize.jpg" class="img-fluid rounded-pill" alt="golden record" title="Golden Record"> 
+				<img src="images/probe.jpg" class="img-fluid rounded-pill" alt="voyager 1" title="Voyager 1">
+			</p>
+			</div>
+			</header>
+		
+		<main class="container-lg">
+		<!-- content of the webpage -->
+			
+			<section class="my-4 row">			
+				<!-- Paragraph describing where voyager is now -->
+				<h2 class="display-5 text-center">45 Years Later</h2>
+				<p>
+					The probes are still in function 45 years later. Though they show their technological age, they only trasmit data 38,000 times slower than a 5G connection, <strong class="text-primary fw-bold">they are still transmitting date from interspellar space.</strong> <em>One key discovery</em> was that the <a href="https://en.wikipedia.org/wiki/Heliosphere">heliosphere</a> blocks 70 percent of comsic rays caused by exploding stars. 
+					<br><br>
+					
+				</p>
+			</section>
+			
+			<section class="my-4 row">
+				<article class="col-lg px-5 mb-9">
+				
+				<!-- fun facts -->
+				<p>
+				<h3 class="display-6 text-center">Fun facts about voyager!</h3>
+				</p>
+				<ul class="list-unstyled">
+					<li>Voyager 1 is currenty estimated 22.3 Billion kilometers from the sun </li>
+					<li>Voyager 2 is escaping the solar system slower than Voyager 1 (3.6 AU vs 3.3 AU)</li>
+					<li>Voyager 1 is currently the most distant human-made object in space</li>
+				</ul>
+				</article>
+	
+				<article class="col-lg px-5 mb-4">
+				
+				<!-- important dates -->
+				<p>
+				<h3 class="display-6 text-center"><i class="bi bi-exclamation-triangle"></i>Important dates!<i class="bi bi-exclamation-triangle"></i></h3>
+				</p>
+				<ul class="list-unstyled">
+					<li><span class="fw-bold">July 1 1972:</span> project start</li>
+					<li><span class="fw-bold">July 9 1979:</span> Voayer 2 encounters Jupiter</li>
+					<li><span class="fw-bold">Feb 14 1990:</span> pale blue dot photo is taken</li>
+				</ul>
+				</article>
+			</section>			
+		</main>
+		
+		<!-- form for user's visited-->
+		
+		<div class="container">
+			<div class="row">
+			<div class="col-sm">
+		
+		<form action="https://api.sheetmonkey.io/form/c4JrHk3xFHNbPG478wFGGT" method="POST">
+			<fieldset>
+			<legend>Basic Info:</legend>
+			<label for="name">Name: </label>
+			<input type="text" name="name" id="name" placeholder="Write your name" required>
+			<br><br>
+			
+			<label for="email">Email: </label>
+			<input type="email" name="email" id="email" placeholder="Write your email" required>
+			<br><br>
+			
+			<label for="DOB">Date of Birth: </label>
+			<input type="date" id="birthday" name="birthday">
+			<br><br>
+			
+			<label for="homepage">Add Your Blog:</label>
+			<input type="url" id="homepage" name="homepage">
+			<br><br>
+			
+			<label for="quantity">Quantity (between 1 and 10): </label>
+			<input type="number" id="quantity" name ="quantity" min="1" max="10">
+			</fieldset>
+			</div>
+			<br>
+			
+		<fieldset>
+			<div class="col-sm">
+			<legend>What type of Internet User are you?</legend>
+		
+			
+			<label for="Average">Average </label>
+			<input type="radio" id="Average" name="user" value="Average" required>
+			<label for="Expert">Expert  </label>
+			<input type="radio" id="Expert" name="user" value="Expert">
+			<br><br>
+			<input type="submit" value="Submit">
+			<input class="btn btn-primary" type="reset" value="Reset">
+			<br>
+		</div>
+		</fieldset>
+		
+		<fieldset>
+			<div class="col-sm">
+			<legend>What is your region?</legend>
+			
+			<label for="NA">North America </label>
+			<input type="radio" id="NA" name="region" value="NA">
+			<label for="SA">South America </label>
+			<input type="radio" id="SA" name="region" value="SA">
+			<label for="EU">Europe </label>
+			<input type="radio" id="EU" name="region" value="EU">
+			<label for="AS">Asia </label>
+			<input type="radio" id="AS" name="region" value="AS>
+			<label for="AF">Africa </label>
+			<input type="radio" id="AF" name="region" value="AF">
+			<label for="AU">Australia </label>
+			<input type="radio" id="AU" name="region" value="AU">
+			<br><br>
+			<input type="submit" value="submit">
+			<input class="btn btn-primary" type="reset" value="Reset">
+			<br>
+				</fieldset>
+			</form>
+			</div>
+		</div>	
+		</div>
+		</section>
+	</main>
+		<footer>
+		&copy; 2022 Voyager 1 and 2
+		</footer>
+		
+    </body>
+</html>
